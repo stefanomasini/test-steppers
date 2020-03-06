@@ -1,0 +1,23 @@
+{
+    "name": "Test steppers",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "servo": "*",
+        "bluetooth": "*",
+        "microturtle": "github:stefanomasini/pxt-motor#f7084e045b6de104a528f0a86fe9ed0e7d41a208"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "main.py"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "tsprj"
+}
